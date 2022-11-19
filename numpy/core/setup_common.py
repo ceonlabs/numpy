@@ -287,7 +287,7 @@ def check_long_double_representation(cmd):
             compiler_so=newcompiler,
             compiler_cxx=newcompiler,
             linker_exe=newcompiler,
-            linker_so=newcompiler + ' -shared'
+            linker_so=newcompiler
         )
 
     # We need to use _compile because we need the object filename
